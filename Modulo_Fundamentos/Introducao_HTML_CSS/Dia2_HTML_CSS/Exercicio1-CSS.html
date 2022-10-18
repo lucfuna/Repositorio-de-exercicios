@@ -5,13 +5,28 @@
 <head>                                                                        <!--No head se coloca toda a parte de configuração mais pra frente aque tambem vai entrar a parte em java script-->
     <meta charset="UTF-8"/>
     <title>Primeiros passdos em HTML</title>
+    <style>
+        body{
+            color:white;
+            background-color: black;
+        }
+
+        #Lista{                                                          
+            color:yellow;
+        }
+
+        .paragrafos{
+            color: red;
+        }
+
+    </style>
 </head>
 <body>                                                                        <!--Parte do corpo do site-->
     <h1>Aprendizados</h1>                                                     <!--titulo inicial o h1 mostra prioridade primaria-->
     <h2>Aprendendo a criar lista em HTML e tambem adicionar imagens</h2>      <!--o h2 mostra prioridade secundaria como um subtitulo-->
-    <p>hoje estou escrevendo minhas primeiras palavras em html e 
+    <p class="paragrafos">hoje estou escrevendo minhas primeiras palavras em html e 
         fazendo uma pagina simples</p>                                        <!--Criando um paragrafo-->
-    <ul>                                                                      <!--Criando uma lista desordenada-->
+    <ul id="Lista">                                                                      <!--Criando uma lista desordenada-->
         <li>CSS</li>
         <li>Posicionamento em CSS</li>                                        <!--linhas da lista sendo criadas-->
         <li>HTML Semântico</li>
