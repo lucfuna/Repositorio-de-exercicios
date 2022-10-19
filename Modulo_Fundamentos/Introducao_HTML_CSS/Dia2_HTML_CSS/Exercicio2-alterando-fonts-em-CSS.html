@@ -4,19 +4,43 @@
 <head>                                              <!--No head se coloca toda a parte de configuração mais pra frente aque tambem vai entrar a parte em java script-->
     <meta charset="UTF-8"/>
     <title>Aprendendo HTML</title>
+    <style>
+        h2{
+            font-family: arial;
+
+        }
+        p{
+            font-family: cursive;
+            font-size: 25px;
+        }
+
+        .Lista{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #Referencia{
+            color: red;
+        }
+
+    </style>
 </head>
 <body>                                              <!--Parte do corpo do site-->
     <h1>Aprendizados</h1>                           <!--titulo inicial o h1 mostra prioridade primaria-->
     <h2>Aprendendo a criar links internos e externos</h2>      <!--o h2 mostra prioridade secundaria como um subtitulo-->
     <p>hoje estou escrevendo minhas primeiras palavras em html e 
         fazendo uma pagina simples</p>              <!--Criando um paragrafo-->
-    <ul>                                            <!--Criando uma lista desordenada-->
+    <ul class="Lista">                                            <!--Criando uma lista desordenada-->
         <li>CSS</li>
         <li>Posicionamento em CSS</li>              <!--linhas da lista sendo criadas-->
         <li>HTML Semântico</li>
         <li>Java Script</li>
         <li>DOM</li>
-        <li><a href="#FlexBox">FlexBox</a></li>     <!--Adicionando um link interno ao clicar no FlexBox-->
+        <li><a id="Referencia" href="#FlexBox">FlexBox</a></li>     <!--Adicionando um link interno ao clicar no FlexBox-->
     </ul>
     <br>                                            <!--Esse "br" ele faz pular uma linha pode colocar quantos quiser para pular mais linhas-->
     <p>Clique no link para acessar o youtube <a href="https://www.youtube.com/" target="_blanck">Youtube</a></p>  <!--Criando um link externo na pagina utilizando a tag "a" juntamento com o "href"-->
