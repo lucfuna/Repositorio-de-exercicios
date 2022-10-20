@@ -1,0 +1,90 @@
+        h2{
+            font-family: arial;
+
+        }
+        p{
+            font-family: cursive;
+            font-size: 25px;
+        }
+
+        .Lista{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #Referencia{
+            color: red;
+        }
+
+        #youtube{    
+            color: red;
+        }
+        #youtube:hover{
+            background-color: green;
+        }
+
+        .tag-span{
+            color: blue;
+        }
+
+        .paragrafos{
+            position: absolute;
+            background-color: rebeccapurple;
+            width: 650px;
+            text-align: left;
+            overflow: auto;
+            top: 700px;
+            z-index: 3;
+        }
+
+
+
+
+
+
+
+
+        .caixa{
+            color: white;
+            display: inline-block;
+            line-height: 50px;
+            text-align: center;
+            vertical-align: top;
+        }
+        .width-and-height{
+            height: 50px;
+            width: 50px;
+        }
+
+        .padding{
+            padding: 20px;
+        }
+
+        .margin{
+            margin: 30px;
+
+        }
+
+        .border{
+            border: 5px solid black;
+        }
+
+
+
+
+
+        #pikachu{
+            position: absolute;
+            left: 80px;
+            z-index: 1;
+        }        
+
+        #fantasmas{
+            position: absolute;
+            top: 500px;
+            z-index: 2;
+        }

@@ -1,0 +1,14 @@
+#header{
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+.Nav-Links  li{
+    display: inline;
+    margin-left: 260px;
+    
+}
+.Titulo{
+    font-size:40px ;
+}
