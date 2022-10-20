@@ -20,21 +20,31 @@
             color: red;
         }
 
+        #youtube{
+            color: red;
+        }
+
         .tag-span{
             color: blue;
         }
 
         .paragrafos{
+            position: absolute;
             background-color: rebeccapurple;
             width: 650px;
             text-align: left;
             overflow: auto;
+            top: 700px;
+            z-index: 3;
         }
 
 
 
 
-        
+
+
+
+
         .caixa{
             color: white;
             display: inline-block;
@@ -58,4 +68,20 @@
 
         .border{
             border: 5px solid black;
+        }
+
+
+
+
+
+        #pikachu{
+            position: absolute;
+            left: 80px;
+            z-index: 1;
+        }        
+
+        #fantasmas{
+            position: absolute;
+            top: 500px;
+            z-index: 2;
         }
