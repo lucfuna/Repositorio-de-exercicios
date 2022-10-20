@@ -20,8 +20,11 @@
             color: red;
         }
 
-        #youtube{
+        #youtube{    
             color: red;
+        }
+        #youtube:hover{
+            background-color: green;
         }
 
         .tag-span{
