@@ -1,0 +1,21 @@
+        h2{
+            font-family: arial;
+
+        }
+        p{
+            font-family: cursive;
+            font-size: 25px;
+        }
+
+        .Lista{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #Referencia{
+            color: red;
+        }
