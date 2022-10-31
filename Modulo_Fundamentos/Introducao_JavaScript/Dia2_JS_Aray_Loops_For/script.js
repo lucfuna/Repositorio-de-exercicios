@@ -12,4 +12,20 @@ let pizza5 = 'Chocolate';
 let pizzas = ['4 Queijos','Frango com Catupiry', 'Marguerita', 'Palmito', 'Chocolate'];
 // lembrar que o posicionamento dentro do array começa com 0!!
 
-console.log(pizzas);
+//caso que queria colocar mais um elemento dentro da minha array!!!
+pizzas.push('Peito de Peru');
+pizzas.push('Gratinada');
+
+//como saber quantos elemento tem dentro do array!!!
+//console.log(pizzas.length)
+
+//como colocar em ordem alfabetica!!!
+//console.log(pizzas.sort());
+
+
+//Criando um laço de repetição
+
+for (let index = 0; index < pizzas.length; index += 1) {
+    console.log(pizzas[index]);
+}
+
